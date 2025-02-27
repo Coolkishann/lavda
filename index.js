@@ -14,7 +14,7 @@ app.use(express.json());
 
 // ✅ Proper CORS Configuration
 app.use(cors({
-  origin: 'http://localhost:3000', // Allow frontend URL
+  origin: 'https://gaand.vercel.app', // Allow frontend URL
   credentials: true, // Allow cookies & authentication headers
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
